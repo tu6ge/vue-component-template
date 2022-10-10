@@ -27,5 +27,14 @@ pnpm run build
 pnpm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Using the Library
+
+```
+import Vue from 'vue'
+import demo from 'you-lib-name'
+Vue.use(demo)
+
+// if you need ,you can import css
+import 'you-lib-name/dist/components.min.css'
+```
+
